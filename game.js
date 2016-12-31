@@ -12,13 +12,6 @@ const board = [
     [null, null, null]
 ];
 
-// const board = [
-//     [null, null, null, null],
-//     [null, null, null, null],
-//     [null, null, null, null],
-//     [null, null, null, null]
-// ];
-
 const gamingRegis = ['One player', 'Two players'];
 
 let singelPlayerLS = parseInt(localStorage.getItem('singelPlayer'));
