@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Kaushan Script', cursive;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    min-width: 684px;
+    padding-top: 30px;
+    background: url(bg.jpg) repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 5px 5px 25px rgba(0, 0, 0, .5);
+}
+
+.gaming-regis-container {
+    overflow: hidden;
+    border-radius: 5px;
+    width: 200px;
+    background: #cceec7;
+    margin: 20px auto;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, .4);
+}
+
+.gaming-regis-container li {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #a09aa0;
+}
+
+.gaming-regis-container li.active {
+    color: black;
+}
+
+.gaming-regis-container li:hover,
+.gaming-regis-container li:focus {
+    background: #61e05b;
+    color: #000;
+}
+
+.active {
+    background: #00BC6A;
+    text-decoration: underline;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .15);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    box-shadow: 10px 10px 20px 0 rgba(0,0,0, .4);
+    background: #46d2af; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #46d2af 0%, #00bc6a 50%, #46d2af 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #46d2af 0%,#00bc6a 50%,#46d2af 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #46d2af 0%,#00bc6a 50%,#46d2af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46d2af', endColorstr='#46d2af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.item {
+    float: left;
+    text-align: center;
+    color: #9c9c9c;
+    font-size: 50px;
+    cursor: pointer;
+    background: rgb(204, 238, 199);
+}
+
+.item:hover {
+    background: #d8ead6;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0, .5);
+}
+
+.wrapper p {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper button {
+    display: block;
+    margin: 50px auto 0 auto;
+    height: 60px;
+    min-width: 170px;
+    font-size: 23px;
+    border-radius: 30px;
+    border: 3px solid grey;
+    box-shadow: 2px 2px 15px 0 rgba(0,0,0, .2);
+    cursor: pointer;
+}
+
+.wrapper button:hover {
+    background: #ccc;
+}
+.wrapper button:focus {
+    border-color: #46D2AF;
+    box-shadow: 0 0 15px 0 rgba(0,0,0, .2);
+}
