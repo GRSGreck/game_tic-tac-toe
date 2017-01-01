@@ -15,10 +15,7 @@ const board = [
 const gamingRegis = ['One player', 'Two players'];
 
 let singelPlayerLS = parseInt(localStorage.getItem('singelPlayer'));
-
 let singelPlayer = singelPlayerLS ? singelPlayerLS : 0;
-
-
 let body = document.querySelector('body');
 
 let gamingRegisContainer = document.createElement('ul');
